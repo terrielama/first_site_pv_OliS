@@ -1,0 +1,451 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body
+{
+    background-color: #f3e0df;
+    font-family:'Poppins';
+    /* background-color: blue; */
+    
+}
+
+/* -------------------------------------------- navbar */
+
+
+.navbar
+{
+    /* background-color: tomato; */
+    padding: 15px;
+    border-bottom:1.5px solid black ;
+
+}
+
+.navbar .logo
+{
+    color: black;
+    font-weight:600;
+    font-size: 25px;
+}
+
+.navbar .menu ul li
+{
+    /* background-color: rgb(231, 118, 118); */
+    display: inline;
+    float: right;
+    padding: 14px;
+    margin-top: -50px;
+ 
+}
+
+.navbar .menu ul li a
+{
+    padding: 15px;
+    font-size: 23px;
+    color: black;
+    border-radius: 10px;
+}
+
+.navbar .menu ul li a:hover
+{
+    cursor: pointer;
+    background-color:#c2a1d242 ;
+    border-radius: 10px;
+
+}
+
+.menu-hamburger
+{
+    position: absolute;
+    top: 1.5%;
+    right: 30px;
+    width: 45px;
+    height:45px;
+    cursor: pointer;
+    display: none;
+    background-color: #c2a1d2;
+    border-radius: 5px;
+    
+    
+}
+
+/* ---------------------------------------- texte */
+
+.text
+{
+    /* background-color: aqua; */
+    margin-top: 100px;
+    margin-left: 40px;
+    padding: 15px;
+}
+
+.text h1
+{
+    color: black;
+    font-size: 40px;
+}
+
+.text h2
+{
+    color:#c2a1d2;
+    transition: 1200ms;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.text p
+{
+    color: #44494a;
+    margin-bottom: 90px;
+    font-size: 20px;
+    padding-top: 10px;
+   
+}
+
+
+.photo img
+{
+    width: 450px;
+    margin-left: 780px;
+    margin-top: -250px;
+    background: #c2a1d250; 
+    border-radius: 50px;
+    transition:900ms
+    
+}
+
+
+.bnt
+{
+    /* background-color: #c2a1d2; */
+    margin-left: 40px;
+    width: 11%;
+    margin-top: -60px;
+
+
+}
+
+.bnt button
+{
+    background-color:#c2a1d2;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    width: 170px;
+    font-size: 19px;
+    border-color: #457B9D;
+    transition: 290ms;
+    
+  
+}
+
+.bnt2
+{
+    /* background-color: #c2a1d2; */
+    margin-left: 220px;
+    width: 11%;
+    margin-top: -45px;
+
+}
+
+
+.bnt2 button
+{
+    background-color:#E2F7FA;
+    padding: 10px 20px;
+    width: 170px;
+    border-radius: 5px;
+    font-size: 19px;
+    border-color: #6A98B3;
+    color: #325d78;
+    transition: 290ms;
+
+}
+
+.bnt button:hover
+{
+background-color:#E2F7FA;
+border-color: #6A98B3;
+color: #325d78;
+}
+
+.bnt2 button:hover
+{
+    border-color: #457B9D;
+    background-color:#c2a1d2;
+    color: white;
+}
+/* ---------------------------------------- page2 */
+
+/* .page2
+{
+    background: white;
+    margin-top: 100px;
+
+
+}
+
+.page2 img
+{
+    width: 100px;
+    
+    transition: 988ms;
+} */
+
+
+/* --------------------------------------------------- */
+.text2
+{
+    background:white;
+    margin-top: 120px;
+    padding: 50px;
+
+}
+.text2 h2
+{
+    /* background: red; */
+    color:#c2a1d2;
+    margin-left: 50px;
+    font-size: 16px;
+    transition: 760ms;
+    
+
+}
+
+
+.text2 h1
+{
+   
+    
+    margin-left: 50px;
+    color: black;
+    transition: 1000ms;
+    /* background: gray; */
+}
+
+.text2 p
+{
+    /* background: crimson; */
+
+    color: #44494a;
+    margin: 50px;
+    top: 150px;
+    
+     
+}
+
+/* -------------------------------------------------- */
+/* page3 */
+
+.text3
+{
+    /* background: blue; */
+    padding: 20px 20px;
+    margin-top: 100px;
+    font-size: 16px;
+}
+
+.text3 h2
+{
+  
+    /* background: red; */
+    bottom:-10px;
+    font-size: 16px;
+    color:#c2a1d2;
+    justify-content: center;
+    text-align: center;
+    marg
+}
+
+
+.text3 h1
+{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+     font-size: 40px;
+     transition: 500ms;
+}
+
+.deralb
+{
+   /* background: blue;  */
+    margin-top: 5%;
+    text-align: center;
+    transition: .5s;
+
+}
+
+.deralb:hover
+{
+    transform:scale(1.25);
+}
+
+
+.deralb .img1
+{
+    width: 190px; 
+    height: 190px; 
+    margin: 15px ;
+    transition: .5s;
+  
+ 
+
+    
+}
+
+.deralb .img2
+{
+   
+    width: 190px; 
+    height: 190px; 
+    margin: 15px ;
+    transition: .5s;
+
+}
+
+.deralb .img3
+{
+    width: 190px; 
+    height: 190px; 
+    margin: 15px ;
+    transition: .5s;
+
+}
+
+.deralb .img4
+{
+    width: 190px; 
+    height: 190px; 
+    margin: 15px ;
+    transition:.5s;
+
+}
+
+/* ---------------------------------------- */
+@media screen and (max-width: 800px)
+{
+
+
+.navbar .menu-hamburger
+{
+    display: block;
+
+}
+
+.menu /* cacher la bar 900px */ /*nav links est le volet entier*/
+{
+/* le background prenne toute la page - utilise  top et left */
+top: 0;
+left: 0;
+position: absolute; /*pour prendre tout l'ecran*/
+background-color: rgba(255, 255, 255, 0.20); /*mettre du blanc transparent*/
+backdrop-filter: blur(7px);/* flou en arriere plan */
+width: 100%; /*prendre toute la taille de l'ecran*/
+height: 100vh;
+display: flex;  
+justify-content: center;  /* le ul soit centrer */
+align-items: center;
+margin-left: -100%; /* par défaut - marge a gauche de -100% | donc le menu sera caché par défaut */
+transition: all 0.5s;
+}
+
+.menu.mobile-menu
+{
+/* cacher le volet quand la class n'est pas la et l'afficher si le contraire */
+margin-left: 0;
+}
+
+.menu ul
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* le ul soit également centrer */
+   }
+
+   .navbar .menu ul li
+   {
+    margin:25px 0 ;  /* marge  - 25px en haut 0 sur les cotés */
+    font-size: 1.2em;
+
+    }
+
+    .photo
+     {
+        display: none;
+    }
+
+    .bnt
+    
+    {
+    margin-top: -60px;
+    margin-left: 30px;
+    }
+
+    .bnt2
+    {
+    margin-top: -46px;
+    margin-left: 205px;
+    }
+
+
+    .page2 #signe
+    {
+        display: none;
+    }
+
+    .text2
+    {
+        left: 110px;
+        top: 15px;
+        font-size:16px ;
+        
+    }
+
+    .text2 h1
+    {
+        right: 275px;
+        /* transition: none; */
+        
+    }
+
+    .text2 h2
+    {
+        right: 226px;
+        transition: none;
+    }
+
+    .text3 h2
+    {
+        top: 20px;
+        left: 210px;
+    } 
+
+    .deralb .img1,.deralb .img2,.deralb .img3,.deralb .img4
+    {
+        width: 150px; 
+         height: 150px; 
+    }
+
+    .deralb:hover
+    {
+        transform: none;
+    }
+
+}
+
+
+/* ----------------------------------------------------------  */
+
+@media screen and (max-width: 1024px)
+{
+    .photo
+     {
+        display: none;
+    }
+}

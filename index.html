@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,inital-scal=1.0">
+    <title>Oliver</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@800&family=Montserrat:wght@600&family=Open+Sans&family=Poppins&family=Roboto&display=swap');
+      </style>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<html>
+    <body>
+
+        <nav class="navbar">
+            <!-- logo -->
+            <a href="#" class="logo">Oli</a>
+           
+
+            <!-- menu -->
+            <div class="menu">    
+        <ul>    
+            <li><a class="first" href="#">Home</a></li>
+           <li> <a href="#">About</a></li>
+            <li><a href="#">Album</a></li>
+           <li> <a href="#">Project</a></li>
+            <li><a href="#">Contact</a></li>
+</ul>
+            </div>
+            <img src="./image/menu.png" class="menu-hamburger">
+
+    </nav>
+
+    <div class="text">
+        <h2>Hi Everyone, i am</h2>
+
+        <h1>oliver sykes</h1>
+
+        <p>I am singer and leader of the English deathcore and metalcore band,<br>
+            Bring me The Horizon.
+       
+    </p>
+</div>
+
+<div class="photo">
+    <img src="./image/portrait.png">
+</div>
+
+
+<div class="bnt">
+    <button type="button">Download CD</button>
+</div>
+   
+<div class="bnt2">
+    <button type="button">Explore More</button>
+</div>
+
+  
+<div class="page2">
+
+    <!-- <img src="./image/photo.PNG"> -->
+
+</div>
+
+<div class="text2">
+
+    <h2>About</h2>
+
+    <h1>About Me?</h1>
+
+   
+    <p>In 2004 I formed Bring Me the Horizon,
+        a deathcore and metalcore band featuring several local Sheffield bands.
+         The band released two demos in 2006,
+         "The Bedroom Sessions" and "That Is What The Edge Of Your Seat Was Made".
+          This was preceded by six albums: Count Your Blessings in 2006, Suicide Season in 2008,
+         There Is a Hell and Believe Me
+         I've Seen It. There Is a Heaven, Let's Keep It a Secret.
+          in 2010, Sempiternal in 2013,
+          That's the spirit in 2015,
+          Amo in 2019, and Post Human: Survival Horror in 2020.</p>
+
+
+</div>
+
+<!--page 2  -->
+
+<div class="text3">
+<h2>Album</h2>
+<h1>latest albums released</h1>
+
+</div>
+
+<div class="deralb">
+
+  
+    <img class="img1" src="./image/al1.jpg" alt="">
+    <img class="img2" src="./image/al2.jpg" alt="">
+    <img class="img3" src="./image/al3.jpg" alt="">
+    <img class="img4" src="./image/al4.jpg" alt="">
+</div>
+</div>
+
+
+
+</body>
+
+ 
+<script>
+    
+    // creer 2 variables, menu-hamburger et nav-links
+    
+        const menuHamburger = document.querySelector(".menu-hamburger")// menu-hamburger est relier a l'image du menu
+        const navLinks = document.querySelector(".menu")
+    
+        menuHamburger.addEventListener('click',()=>{  // a chaque fois qu'on va cliquer sur le menu
+        navLinks.classList.toggle('mobile-menu')   // on va ajouter a la variable nav-links a la class mobile-menu
+    })
+    </script>
+</html>
