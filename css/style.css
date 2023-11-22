@@ -118,14 +118,21 @@ body
     transition:900ms
     
 }
+/* -------- bouton */
 
+.all_bouton
+{
+    /* background-color: red; */
+    margin-left: 10px;
+}
 
 .bnt
 {
     /* background-color: #c2a1d2; */
-    margin-left: 40px;
     width: 11%;
-    margin-top: -60px;
+    margin-top: -90px;
+    margin-left: 40px;
+    
 
 
 }
@@ -140,8 +147,7 @@ body
     font-size: 19px;
     border-color: #457B9D;
     transition: 290ms;
-    
-  
+
 }
 
 .bnt2
@@ -220,8 +226,6 @@ color: #325d78;
 
 .text2 h1
 {
-   
-    
     margin-left: 50px;
     color: black;
     transition: 1000ms;
@@ -235,8 +239,7 @@ color: #325d78;
     color: #44494a;
     margin: 50px;
     top: 150px;
-    
-     
+
 }
 
 /* -------------------------------------------------- */
@@ -252,14 +255,13 @@ color: #325d78;
 
 .text3 h2
 {
-  
+
     /* background: red; */
     bottom:-10px;
     font-size: 16px;
     color:#c2a1d2;
     justify-content: center;
     text-align: center;
-    marg
 }
 
 
@@ -268,8 +270,8 @@ color: #325d78;
     justify-content: center;
     text-align: center;
     margin-top: 10px;
-     font-size: 40px;
-     transition: 500ms;
+    font-size: 40px;
+    transition: 500ms;
 }
 
 .deralb
@@ -345,9 +347,9 @@ top: 0;
 left: 0;
 position: absolute; /*pour prendre tout l'ecran*/
 background-color: rgba(255, 255, 255, 0.20); /*mettre du blanc transparent*/
-backdrop-filter: blur(7px);/* flou en arriere plan */
+backdrop-filter: blur(20px);/* flou en arriere plan */
 width: 100%; /*prendre toute la taille de l'ecran*/
-height: 100vh;
+height: 100%;
 display: flex;  
 justify-content: center;  /* le ul soit centrer */
 align-items: center;
@@ -366,20 +368,31 @@ margin-left: 0;
     display: flex;
     flex-direction: column;
     align-items: center;  /* le ul soit également centrer */
-   }
+}
 
    .navbar .menu ul li
    {
     margin:25px 0 ;  /* marge  - 25px en haut 0 sur les cotés */
-    font-size: 1.2em;
+    font-weight: bold;
 
     }
+    .navbar .menu ul li a
+    {
+    font-weight: bold;
+    font-size: 28px;
+}
 
     .photo
-     {
+    {
         display: none;
     }
 
+    .all_bouton
+    {
+        width: 100%;
+        align-items: center;
+        margin-left: -10px;
+    }
     .bnt
     
     {
