@@ -348,7 +348,7 @@ left: 0;
 position: absolute; /*pour prendre tout l'ecran*/
  background-color: rgba(255, 255, 255, 0.816);/*mettre du blanc transparent */
 
-backdrop-filter: blur(20px); /*flou en arriere plan */
+backdrop-filter: blur(40px); /*flou en arriere plan */
 
 width: 100%; /*prendre toute la taille de l'ecran*/
 height: 100%;
