@@ -59,6 +59,11 @@ body
 
 }
 
+.menu {
+    webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
 .menu-hamburger
 {
     position: absolute;
@@ -70,8 +75,7 @@ body
     display: none;
     background-color: #c2a1d2;
     border-radius: 5px;
-    
-    
+       
 }
 
 /* ---------------------------------------- texte */
