@@ -59,11 +59,6 @@ body
 
 }
 
-.menu {
-    webkit-backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-}
-
 .menu-hamburger
 {
     position: absolute;
@@ -75,8 +70,14 @@ body
     display: none;
     background-color: #c2a1d2;
     border-radius: 5px;
-       
+    
+    
 }
+.menu {
+    webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
 
 /* ---------------------------------------- texte */
 
@@ -122,21 +123,14 @@ body
     transition:900ms
     
 }
-/* -------- bouton */
 
-.all_bouton
-{
-    /* background-color: red; */
-    margin-left: 10px;
-}
 
 .bnt
 {
     /* background-color: #c2a1d2; */
-    width: 11%;
-    margin-top: -90px;
     margin-left: 40px;
-    
+    width: 11%;
+    margin-top: -60px;
 
 
 }
@@ -151,7 +145,8 @@ body
     font-size: 19px;
     border-color: #457B9D;
     transition: 290ms;
-
+    
+  
 }
 
 .bnt2
@@ -192,20 +187,27 @@ color: #325d78;
 }
 /* ---------------------------------------- page2 */
 
-/* .page2
+.page2
 {
     background: white;
     margin-top: 100px;
-
+    grid-template-columns: 2fr 3fr;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    
+    /* display: grid;align-items: center;justify-items: center; pour mettre l'image a coté du texte */
 
 }
 
-.page2 img
+.page2 .page2_img
 {
-    width: 100px;
-    
+    width: 300px;
     transition: 988ms;
-} */
+    align-items: center;
+    justify-content: center;
+    display: block;
+} 
 
 
 /* --------------------------------------------------- */
@@ -230,6 +232,8 @@ color: #325d78;
 
 .text2 h1
 {
+   
+    
     margin-left: 50px;
     color: black;
     transition: 1000ms;
@@ -243,7 +247,8 @@ color: #325d78;
     color: #44494a;
     margin: 50px;
     top: 150px;
-
+    
+     
 }
 
 /* -------------------------------------------------- */
@@ -259,7 +264,7 @@ color: #325d78;
 
 .text3 h2
 {
-
+  
     /* background: red; */
     bottom:-10px;
     font-size: 16px;
@@ -274,8 +279,8 @@ color: #325d78;
     justify-content: center;
     text-align: center;
     margin-top: 10px;
-    font-size: 40px;
-    transition: 500ms;
+     font-size: 40px;
+     transition: 500ms;
 }
 
 .deralb
@@ -300,9 +305,6 @@ color: #325d78;
     margin: 15px ;
     transition: .5s;
   
- 
-
-    
 }
 
 .deralb .img2
@@ -350,12 +352,10 @@ color: #325d78;
 top: 0;
 left: 0;
 position: absolute; /*pour prendre tout l'ecran*/
-background-color: rgba(255, 255, 255, 0.131);/*mettre du blanc transparent */
-
-backdrop-filter: blur(10px); /*flou en arriere plan */
-
+background-color: rgba(255, 255, 255, 0.20); /*mettre du blanc transparent*/
+backdrop-filter: blur(7px);/* flou en arriere plan */
 width: 100%; /*prendre toute la taille de l'ecran*/
-height: 100%;
+height: 100vh;
 display: flex;  
 justify-content: center;  /* le ul soit centrer */
 align-items: center;
@@ -374,31 +374,20 @@ margin-left: 0;
     display: flex;
     flex-direction: column;
     align-items: center;  /* le ul soit également centrer */
-}
+   }
 
    .navbar .menu ul li
    {
     margin:25px 0 ;  /* marge  - 25px en haut 0 sur les cotés */
-    font-weight: bold;
+    font-size: 1.2em;
 
     }
-    .navbar .menu ul li a
-    {
-    font-weight: bold;
-    font-size: 20px;
-}
 
     .photo
-    {
+     {
         display: none;
     }
 
-    .all_bouton
-    {
-        width: 100%;
-        align-items: center;
-        margin-left: -10px;
-    }
     .bnt
     
     {
@@ -454,6 +443,31 @@ margin-left: 0;
     .deralb:hover
     {
         transform: none;
+    }
+
+    .page2 
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 0;
+        padding: 0%;
+        margin-top: 30%;
+    }
+    .page2 .text2
+    {
+        margin-top: 10%;
+        width: 100%;
+        padding: 0%;
+        
+    }
+
+    .page2 .text h1
+    {
+        width: 100%;
+    }
+    .page2 img
+    {
+        display: none;
     }
 
 }
