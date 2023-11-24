@@ -125,23 +125,24 @@ body
 }
 
 
-.bnt
+.bouton
 {
     /* background-color: #c2a1d2; */
-    margin-left: 40px;
-    width: 11%;
     margin-top: -60px;
+    display: grid ;
+    grid-template-columns: 2fr 3fr;
+    width: 40%;
+    margin-left: 50px;
 
 
 }
 
-.bnt button
+.bouton .btn1 
 {
     background-color:#c2a1d2;
-    padding: 10px 20px;
     color: white;
+    width: 190px;
     border-radius: 5px;
-    width: 170px;
     font-size: 19px;
     border-color: #457B9D;
     transition: 290ms;
@@ -149,37 +150,30 @@ body
   
 }
 
-.bnt2
-{
-    /* background-color: #c2a1d2; */
-    margin-left: 220px;
-    width: 11%;
-    margin-top: -45px;
-
-}
 
 
-.bnt2 button
+.bouton .btn2 
 {
     background-color:#E2F7FA;
     padding: 10px 20px;
-    width: 170px;
     border-radius: 5px;
+    width: 190px;
     font-size: 19px;
     border-color: #6A98B3;
     color: #325d78;
     transition: 290ms;
+    margin-left: -30px;
 
 }
 
-.bnt button:hover
+.btn1 button:hover
 {
 background-color:#E2F7FA;
 border-color: #6A98B3;
 color: #325d78;
 }
 
-.bnt2 button:hover
+.btn2 button:hover
 {
     border-color: #457B9D;
     background-color:#c2a1d2;
@@ -388,18 +382,28 @@ margin-left: 0;
         display: none;
     }
 
-    .bnt
+    .bouton
     
     {
-    margin-top: -60px;
-    margin-left: 30px;
+        gap: 40px;
+        margin-left: 45px;
+        
     }
 
-    .bnt2
+    .bouton .btn1
     {
-    margin-top: -46px;
-    margin-left: 205px;
+        width: 150px;
+        font-size: 15px;
     }
+    .bouton .btn2
+    {
+        width: 150px;
+        font-size: 15px;
+        
+
+    }
+
+
 
 
     .page2 #signe
@@ -452,6 +456,7 @@ margin-left: 0;
         margin-top: 0;
         padding: 0%;
         margin-top: 30%;
+        
     }
     .page2 .text2
     {
@@ -481,4 +486,9 @@ margin-left: 0;
      {
         display: none;
     }
+
+    .bouton
+    {
+    gap: 40px;
+}
 }
