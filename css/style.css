@@ -127,12 +127,13 @@ body
 
 .bouton
 {
-    /* background-color: #c2a1d2; */
+    background-color: #c2a1d2;
     margin-top: -60px;
     display: grid ;
     grid-template-columns: 2fr 3fr;
     width: 40%;
     margin-left: 50px;
+    gap: 30px;
 
 
 }
@@ -146,8 +147,6 @@ body
     font-size: 19px;
     border-color: #457B9D;
     transition: 290ms;
-    
-  
 }
 
 
@@ -163,7 +162,6 @@ body
     color: #325d78;
     transition: 290ms;
     margin-left: -30px;
-
 }
 
 .btn1 button:hover
@@ -385,7 +383,7 @@ margin-left: 0;
     .bouton
     
     {
-        gap: 40px;
+        gap: 35px;
         margin-left: 45px;
         
     }
