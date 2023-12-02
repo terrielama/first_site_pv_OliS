@@ -127,7 +127,7 @@ body
 
 .bouton
 {
-    background-color: #c2a1d2;
+/*     background-color: #c2a1d2; */
     margin-top: -60px;
     display: grid ;
     grid-template-columns: 2fr 3fr;
